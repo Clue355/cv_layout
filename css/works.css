@@ -1,0 +1,28 @@
+/********************** element selectors ************/
+body {
+    background-color: #343A40;
+  }
+  /********************** class selectors **************/
+  .navbar-nav {
+    margin: auto;
+  }
+  .carousel-inner {
+    margin: auto;
+    width:400px;
+    height:91vh;
+  }
+  
+  .group-one {
+    /* left: 32.6%; */
+    display: flex;
+  
+  }
+  
+  .artwork:hover {
+    transform: translate3D(0,-1px,0) scale(1.03);
+  }
+  /********************** id selectors *****************/
+  #buttons {
+    position: relative;
+  }
+  /********************** media query  *****************/
