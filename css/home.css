@@ -1,8 +1,9 @@
+
+
 /************* element selectors ***********/
 body {
     font-family: 'Karma', serif;
     margin-top: 8%;
-    
   }
   
   h1 {
@@ -24,8 +25,21 @@ body {
     justify-content: space-evenly;
     align-items: center;
     padding: 0;
-    
+    opacity: 1;
+    animation: home 4s;
+    animation-play-state: running;
 }
+
+@keyframes home {
+  from{opacity:0;}
+  to{opacity:1;}
+}
+/* 
+.home:after {
+  opacity: 1;
+  transition: opacity 3s linear;
+  transition-delay: 1s;
+} */
 
   .nicko-pic {
     height: 450px;
@@ -121,16 +135,17 @@ body {
   .carlos-text {
     padding-top: 10px;
     font-family: 'Montserrat', serif;
-    font-size: 13px;
+    font-size: 10px;
+  
   }
   
   .carlos-link {
-    color: #da9833;
-    text-decoration: none
+    color: black;
+    text-decoration: under;
   }
   
   .carlos-link:hover {
-    color: black;
+    color: #da9833;
   }
   /************* attribute selectors *********/
   
