@@ -1,6 +1,6 @@
 # Practice Portfolio Site 1
 
-Website showing my early skills using HTML & CSS
+Portfolio site I made for someone
 
 ## Summary
 
