@@ -1,4 +1,4 @@
-# Personal Site V1
+# Practice Portfolio Site 1
 
 Website showing my early skills using HTML & CSS
 
